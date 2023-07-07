@@ -1,14 +1,15 @@
-import React from 'react'
+
 import Card from '../../components/Card'
 import './style.sass'
+import CardBack from '../../components/CardBack'
+import FormLogin from '../../components/FormLogin'
 
 const index = () => {
   return (
     <div className='container'>
-      <div className='wrapper'>
-
-      </div>   
-      
+      <Card />
+      <CardBack />
+      <FormLogin />
     </div>
   )
 }

@@ -16,7 +16,7 @@ const FormLogin = () => {
         </div>
         <div className='form-date-cvc'>
           <div className='form-login-input-block'>
-          <label for='date-month' htmlFor="">EXP. DATE (MM/YY)</label>
+          <label for='date-month'>EXP. DATE (MM/YY)</label>
             <div className=' form-date'>
               <input type="number" name='date' id='date-month' placeholder='MM'/>
               <input type="number" name='date' id='date-year' placeholder='YY'/>
